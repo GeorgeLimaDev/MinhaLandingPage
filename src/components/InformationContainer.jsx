@@ -1,22 +1,22 @@
-import React from 'react'
 import '../styles/components/informationcontainer.sass'
-import {AiFillPhone, AiOutlineMail, AiFillEnvironment} from 'react-icons/ai'
+import {AiFillPhone, AiOutlineMail, AiFillEnvironment, AiOutlineWhatsApp} from 'react-icons/ai'
 
 const InformationContainer = () => {
   return (
     <section id="information">
         <div className="info-card">
-            <AiFillPhone id='phone-icon'/>
+            <AiOutlineWhatsApp id='phone-icon'/>
             <div>
-                <h3>Telefone</h3>
-                <p>(83) 99917-8435</p>
+                <h3>Whatsapp:</h3>
+                <p><a href='https://wa.me/5583999178435' title='Clique para conversar comigo no WhatsApp'>Chama no zap</a></p>
+            
             </div>
         </div>
         <div className="info-card">
             <AiOutlineMail id='email-icon'/>
             <div>
                 <h3>E-Mail</h3>
-                <p>georgelimabr@outlook.com</p>
+                <p> <a href='mailto:georgelimabr@outlook.com' title='Clique para me enviar um e-mail'> Enviar e-mail</a></p>
             </div>
         </div>
         <div className="info-card">

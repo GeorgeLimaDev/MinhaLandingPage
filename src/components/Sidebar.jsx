@@ -11,7 +11,7 @@ const Sidebar = () => {
         <p className='title'> <b>George Lima</b><br/>Desenvolvedor</p>
         <SocialNetworks />
         <InformationContainer />
-        <a href="" className="btn">Download cv</a>
+        <a href="https://drive.google.com/file/d/1EJyEIUN_7SEeFr3Qir1RcpU5aDD-advD/view?usp=sharing" className="btn" title='Acesse meu currículo para maiores detalhes sobre meu perfil profissional.'>Ver currículo</a>
     </aside>
   )
 }
